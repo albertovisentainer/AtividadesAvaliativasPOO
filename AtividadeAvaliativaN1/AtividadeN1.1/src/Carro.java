@@ -1,8 +1,8 @@
 public class Carro {
     // atributos para um carro
-    String marca;
-    String cor;
-    int velocidadeAtual;
+   public String marca;
+   public String cor;
+   public int velocidadeAtual;
 
     // comecar parado
     public Carro (String marca, String cor){
