@@ -30,7 +30,7 @@ public class Main {
         System.out.println("--------------------");
         System.out.println("Partida finalizada!");
         System.out.println("--------------------");
-        
+
         jogo1.jogar("Palmeiras");
 
         // Exibindo placar atualizado
