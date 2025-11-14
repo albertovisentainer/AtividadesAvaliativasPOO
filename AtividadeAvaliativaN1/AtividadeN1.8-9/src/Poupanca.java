@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public class Poupanca extends ContaComum{
+    private Integer dataAniversario;
 
-public class Poupanca {
+    public Poupanca(String numero, Double saldo, String tipo, Integer dataAniversario){
+        super(numero, saldo, tipo);
+        this.dataAniversario = dataAniversario;
+    }
 }
